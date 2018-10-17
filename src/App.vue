@@ -3,9 +3,7 @@
     <nav>
       <router-link to="/">Home</router-link>
     </nav>
-    <transition name="view" enter-active-class="animated slideInRight">
-      <router-view></router-view>
-    </transition>
+    <router-view></router-view>
   </div>
 </template>
 
